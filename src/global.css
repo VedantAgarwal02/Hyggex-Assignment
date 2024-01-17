@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --med: Inter;
+  --font-lato: Lato;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lgi: 19px;
+  --med-size: 20px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-whitesmoke: #f9f9f9;
+  --color-dodgerblue: #217eec;
+  --color-gray: #28262c;
+  --color-dimgray: #696671;
+  --color-darkslategray-100: #3a3740;
+  --color-white: #fff;
+  --color-darkslateblue: #06286e;
+
+  /* Gaps */
+  --gap-45xl: 64px;
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-xl: 20px;
+  --gap-2xl: 21px;
+  --gap-sm: 14px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-mid: 17px;
+  --padding-6xl: 25px;
+  --padding-5xl: 24px;
+  --padding-15xl: 34px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-23xl-5: 42.5px;
+}

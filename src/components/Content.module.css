@@ -1,0 +1,390 @@
+.relationsAndFunctions {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    background: linear-gradient(180deg, #06286e, #164ec0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    max-width: 100%;
+  } 
+  .frameChild,
+  .study {
+    position: relative;
+  }
+  .frameChild {
+    border-top: 2px solid var(--color-darkslateblue);
+    box-sizing: border-box;
+    width: 84px;
+    height: 2px;
+  }
+  .studyParent {
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+    color: var(--color-darkslateblue);
+  }
+  .quiz {
+    position: relative;
+    font-weight: 500;
+  }
+  .frameItem {
+    position: relative;
+    border-top: 2px solid var(--color-whitesmoke);
+    box-sizing: border-box;
+    width: 70px;
+    height: 2px;
+  }
+  .quizParent {
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .test {
+    position: relative;
+    font-weight: 500;
+  }
+  .frameInner {
+    position: relative;
+    border-top: 2px solid var(--color-whitesmoke);
+    box-sizing: border-box;
+    width: 68px;
+    height: 2px;
+  }
+  .testParent {
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .game,
+  .lineDiv {
+    position: relative;
+  }
+  .game {
+    font-weight: 500;
+  }
+  .lineDiv {
+    border-top: 2px solid var(--color-whitesmoke);
+    box-sizing: border-box;
+    width: 82px;
+    height: 2px;
+  }
+  .gameParent {
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .others {
+    position: relative;
+    font-weight: 500;
+  }
+  .frameChild1 {
+    position: relative;
+    border-top: 2px solid var(--color-whitesmoke);
+    box-sizing: border-box;
+    width: 92px;
+    height: 2px;
+  }
+  .othersParent {
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .frameParent4,
+  .frameWrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent4 {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frameWrapper1 {
+    width: 554px;
+    justify-content: flex-start;
+    padding: 0 8px 0 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .cardSurface {
+    position: absolute;
+    margin: 0 !important;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 42.51px;
+    background-color: #c4c4c4;
+  }
+  .frameIcon4 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transform: rotate(-180deg);
+  }
+  .x12 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+  }
+  .x12Wrapper {
+    width: 132px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 141px 0 0;
+    box-sizing: border-box;
+  }
+  .frameIcon5 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transform: rotate(-180deg);
+  }
+  .cardBack,
+  .subCard3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .subCard3 {
+    flex: 1;
+    border-radius: 42.51px;
+    background: linear-gradient(
+      222.94deg,
+      #071844,
+      #071844 3.95%,
+      #2d87b6 82.51%,
+      #2d87b6
+    );
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-15xl) var(--padding-15xl) 172px;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .cardBack {
+    width: 712px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: rotate(180deg);
+    max-width: Infinity%;
+    flex-shrink: 0;
+  }
+  .cardBackWrapper {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .maskGroup,
+  .maskGroupWrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .maskGroup {
+    width: 364px;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    max-width: Infinity%;
+    flex-shrink: 0;
+  }
+  .maskGroupWrapper {
+    width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .maskGroupIcon {
+    position: absolute;
+    margin: 0 !important;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .comp {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 38.3px;
+    color: var(--color-white);
+    font-family: var(--font-lato);
+  }
+  .vectorIcon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  .vectorIcon1 {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    min-height: 60px;
+  }
+  .b,
+  .vectorIcon1,
+  .vectorIcon2 {
+    position: relative;
+  }
+  .vectorIcon2 {
+    width: 60px;
+    height: 60px;
+    min-height: 60px;
+  }
+  .vectorGroup {
+    width: 272px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 43px;
+  }
+  .vectorIcon3 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+
+  .frameParent3,
+.vectorParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.vectorParent {
+  width: 612px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #202b37;
+}
+.frameParent3 {
+  width: 712px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.frameWrapper,
+.container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--med-size);
+  font-family: var(--med);
+}
+.container {
+  width: 971px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 56px;
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-dimgray);
+  font-family: var(--font-montserrat);
+}
+
+@media screen and (max-width: 750px) {
+  .relationsAndFunctions {
+    font-size: 26px;
+  }
+  .x12 {
+    font-size: 31px;
+  }
+  .frameParent3 {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameParent4 {
+    flex-wrap: wrap;
+  }
+  .container {
+    gap: 28px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .relationsAndFunctions {
+    font-size: var(--font-size-lgi);
+  }
+  .game,
+  .others,
+  .quiz,
+  .study,
+  .test {
+    font-size: var(--font-size-base);
+  }
+  .x12 {
+    font-size: 23px;
+  }
+  .subCard3 {
+    flex-wrap: wrap;
+    padding-top: 22px;
+    padding-bottom: 112px;
+    box-sizing: border-box;
+  }
+  .b {
+    font-size: var(--font-size-lgi);
+  }
+  .vectorGroup {
+    gap: var(--gap-2xl);
+  }
+  .vectorParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

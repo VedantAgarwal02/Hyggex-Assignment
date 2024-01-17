@@ -1,0 +1,164 @@
+.faqHeading {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-family: inherit;
+    background: linear-gradient(180deg, #06286e, #164ec0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .canEducationFlashcards {
+    width: calc(100% - 73px);
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--med);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    position: relative;
+    line-height: 26px;
+    color: var(--color-gray);
+    text-align: left;
+    display: inline-block;
+    max-width: calc(100% - 44px);
+  }
+  .downArrow1 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .faq1 {
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    border: 1px solid var(--color-dodgerblue);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-mid) var(--padding-6xl) var(--padding-mid)
+      var(--padding-5xl);
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .howDoEducation {
+    position: relative;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .downArrow2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .faq2 {
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    border: 1px solid var(--color-dodgerblue);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-mid) var(--padding-6xl) var(--padding-mid)
+      var(--padding-5xl);
+    gap: var(--gap-xl);
+  }
+  .canEducationFlashcards1 {
+    position: relative;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .downArrow3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .faq3 {
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    border: 1px solid var(--color-dodgerblue);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-mid) var(--padding-6xl) var(--padding-mid)
+      var(--padding-5xl);
+    gap: var(--gap-xl);
+  }
+  .faqParent {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: var(--gap-13xl);
+    max-width: 100%;
+    font-size: var(--font-size-base);
+  }
+  .faqParent,
+  .desktop9,
+  .container,
+  .frameGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .container {
+    width: 848px;
+    align-items: flex-start;
+    gap: 48px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 48px;
+    color: var(--color-gray);
+    font-family: var(--med);
+  }
+  .desktop9,
+  .frameGroup {
+    box-sizing: border-box;
+    gap: var(--gap-45xl);
+  }
+  .frameGroup {
+    width: 1236px;
+    align-items: flex-start;
+    padding: 0 4px 0 0;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-dimgray);
+    font-family: var(--med);
+  }
+  .desktop9 {
+    position: relative;
+    background-color: var(--color-whitesmoke);
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    padding: 27px var(--padding-xl) 307px;
+    letter-spacing: normal;
+  }
+
+  @media screen and (max-width: 750px) {
+    .faqHeading {
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .faqHeading {
+      font-size: 29px;
+    }
+    .faqParent {
+      gap: var(--gap-base);
+    }
+    .container {
+      gap: 24px;
+    }
+  }

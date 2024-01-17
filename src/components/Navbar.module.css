@@ -1,0 +1,80 @@
+.containerIcon {
+    width: 191px;
+    height: 39px;
+    object-fit: cover;
+  }
+  .containerIcon,
+  .contact,
+  .flashcard,
+  .home {
+    position: relative;
+  }
+  .optionsParent {
+    width: 282px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .faq,
+  .login {
+    position: relative;
+  }
+  .login {
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--med);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .container,
+  .options,
+  .loginWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .loginWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 13px;
+    background-color: transparent;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #06286e, #164ec0);
+    width: 128px;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .container,
+  .options {
+    max-width: 100%;
+  }
+  .options {
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  .container {
+    width: 1233px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray-100);
+    font-family: var(--med);
+  }
+
+  @media screen and (max-width: 750px) {
+    .options {
+      display: none;
+    }
+    .container {
+      width: 708px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .options {
+      gap: var(--gap-xl);
+    }
+  }
+  
